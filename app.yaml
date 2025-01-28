@@ -1,0 +1,11 @@
+command: [
+  "streamlit", 
+  "run",
+  "africa-gdp-app.py"
+]
+
+env:
+  - name: "DATABRICKS_WAREHOUSE_ID"
+    value: "c35cb4abedc9b871"
+  - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"
