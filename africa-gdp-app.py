@@ -8,8 +8,6 @@ from databricks.sdk.core import Config
 # Ensure environment variable is set correctly
 assert os.getenv('DATABRICKS_WAREHOUSE_ID'), "DATABRICKS_WAREHOUSE_ID must be set in app.yaml."
 
-assert False
-
 def sqlQuery(query: str) -> pd.DataFrame:
     cfg = Config() # Pull environment variables for auth
     with sql.connect(
