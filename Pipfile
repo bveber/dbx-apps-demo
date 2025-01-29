@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "==1.38.0"
+pandas = ">=1.5.3"
+statsmodels = "==0.13.5"
+databricks-sdk = "==0.41.0"
+numpy = ">=1.21.0"
+databricks-sql-connector = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
